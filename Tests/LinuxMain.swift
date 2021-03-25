@@ -3,5 +3,6 @@ import XCTest
 import crackyTests
 
 var tests = [XCTestCaseEntry]()
-tests += crackyTests.allTests()
+tests += crackyTests.__allTests()
+
 XCTMain(tests)
